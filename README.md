@@ -1,3 +1,124 @@
-# STUDIO-Homepage
-STUDIO Homepage
-제작자 손범수
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>STUDIO</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="javascript" href="./js/main.js">
+</head>
+<body>
+    <div id="navbar2">
+        <div id="logo">
+            <img src="./image/logo.png" alt="로고">
+        </div>
+    </div>
+    <div id="navbar">
+        <li class="navbar-item">    
+            <a href="./main.html">Home</a>
+            <div class="hidden-content">
+                <div>
+                    <a href="#mainbox2">About</a>
+                </div>
+                <div>
+                    <a href="#mainbox4">Crew</a>
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item">    
+            <a href="./Project.html">Project</a>
+            <div class="hidden-content">
+                <div>
+                    May KING
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item">    
+            <a href="./Product.html">Product</a>
+            <div class="hidden-content">
+                <div>
+                    Mirr One
+                </div>
+                <div>
+                    탁상형
+                </div>
+                <div>
+                    설치형
+                </div>
+            </div>
+        </li>
+        <li class="navbar-item">    
+            <a href="./Contact.html">Contact</a>
+        </li>         
+        <li class="navbar-item">    
+            <a href="./Store.html">Store</a>
+            <div class="hidden-content">
+                <div>
+                    Widgets
+                </div>
+            </div>
+        </li> 
+    </div>
+    <div id="main">
+        <video id="movie" autoplay muted loop>
+            <source src="./media/main.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="mainbox1">
+        <a href="./Product.html"><div class="clickbox1">More</div></a>
+        <h1 class="box5-content">
+            <p><div>Now,</div></p>
+            <div>
+                Meet The Future
+            </div>
+            <hr class="hr" align="left">
+        </h1>  
+    </div>
+    <div>
+    <div id="mainbox2">
+        <img class="centerlogo" src="./image/textlogo.png" alt="로고">
+        <div class="mainbox3" id="mirrorBox">
+            <h3><br>Smart Mirror</h3>
+            <!-- <div class="textcenter1">
+                STUDIO는 가정용 스마트미러의<br> 보급을 위해 Mirr One을 개발하였습니다.
+            </div> -->
+        </div>
+        <div class="mainbox3" id="maykingBox">
+            <h3><br>May KING</h3>
+            <!-- <div class="textcenter1">STUDIO는 사회적 목표를 위해<br> May KING 프로젝트를
+                진행하고<br> 있습니다. May KING 프로젝트는<br> 다가오는 4번째 물결 속에서
+                정보격차를 줄이고자 하는 STUDIO의 작은 노력 입니다.
+            </div> -->
+        </div>
+        <div class="mainbox3" id="designBox">
+            <h3><br>Design</h3>
+        </div>
+        <div class="mainbox3" id="developBox">
+            <h3><br>Develop</h3>
+        </div>
+    </div>
+    <div id="mainbox4">
+        <div class="crew"><h1>Crew</h1></div>
+        <div id="crew3" class="center">
+            <div class='crew2'></div>
+            <div class='crew2'></div>
+            <div class='crew2'></div>
+            <div class='crew2'></div>
+            <div class='crew2'></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="box5">
+            <div id="footerline"> 
+                <h6 id="footer-center">
+                    <div class="textcenter1"><h6>Copyright ©2019 All rights reserved</h6></div><br>
+                    <div>TEAM: STUDIO</div>
+                    <div>Crew: 손범수, 김원준, 추병훈, 이찬규, 명세호</div><br>
+                    <div>beomsoo@studiomirr.com</div>
+                    <div>k1a11220@naver.com</div>
+                    <div>010-2987-6939</div>
+                </h6>
+            </div>
+        </div>
+    </body>
+</html>
