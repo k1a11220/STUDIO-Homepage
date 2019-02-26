@@ -63,22 +63,13 @@ a {
     align-self: center;
 }
 
-#main {
-    margin-top: -40px;
-    margin-bottom: 0;
-}
-
-#movie {
-    width: 100vw;
-}
-
 .mainbox1 {
     background-color: white;
     width: 100vw;
     height: 760px;
 }
 
-#mainbox2 {
+.mainbox2 {
     background-color: rgba(65, 64, 64, 0.3);
     width: 100vw;
     height: 760px;
@@ -93,28 +84,8 @@ a {
     border-radius: 10px;
     display: inline-block;
     position: absolute;
-    top: 2030px;
+    top: 230px;
     transition: all 0.3s ease-in-out;
-}
-
-.mainbox4 {
-    background-color: rgb(99, 99, 99);
-    color: white;
-    width: 250px;
-    height: 350px;
-    border-radius: 10px;
-    display: inline-block;
-    position: absolute;
-    top: 2030px;
-    transition: all 0.3s ease-in-out;
-}
-
-.mainbox4:hover {
-    width: 255px;
-    height: 355px;
-    margin-left: -2.5px;
-    margin-top: -2.5px;
-    box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.2);
 }
 
 .mainbox3:hover {
@@ -125,37 +96,7 @@ a {
     box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.2);
 }
 
-#mirrorint {
-    position: absolute;
-    bottom: 500px;
-    left: 9%;
-    text-align: center;
-}
-
-
-#product-box {
-    position: absolute;
-    top: 1600px;
-}
-
-#mirrorBox {
-    left: 40px;
-
-}
-
-#maykingBox {
-    left: 450px;
-}
-
-#designBox {
-    left: 820px;
-}
-
-#developBox {
-    left: 1190px;
-}
-
-#mainbox4 {
+.mainbox4 {
     background-color: rgba(255, 255, 255);
     width: 100vw;
     height: 760px;
@@ -179,104 +120,6 @@ a {
 
 #footer-center {
     text-align: center;
-}
-
-.contact-button {
-    background-color: rgb(0, 0, 51);
-    width: 100px;
-    height: 45px;
-    position: relative;
-    top: 500px;
-    left: 47%;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    line-height: 40px;
-}
-
-#button-down {
-    margin-top: 400px;
-}
-
-#projectbox1 {
-    background-color: white;
-    width: 100vw;
-    height: 760px;
-}
-
-#projectbox2 {
-    background-color: rgba(65, 64, 64, 0.3);
-    width: 100vw;
-    height: 760px;
-    margin-bottom: -40px;
-    text-align: center;
-}
-
-#projectbox4 {
-    background-color: rgba(255, 255, 255);
-    width: 100vw;
-    height: 760px;
-}
-
-#productbox1 {
-    background-color: rgb(126, 126, 126);
-    width: 100vw;
-    height: 760px;
-}
-
-#productbox1-1 {
-    background-color: white;
-    width: 100vw;
-    height: 760px;
-}
-
-.productbox2 {
-    background-color: rgb(0, 0, 51);
-    width: 100vw;
-    height: 760px;
-}
-
-.productbox3 {
-    background-color: rgba(65, 64, 64, 0.3);
-    width: 250px;
-    height: 350px;
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 30px;
-    margin-right: 30px;
-    transition-property: width, height;
-    transition-timing-function: ease-in-out;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
-}
-
-#inbox1 {
-    background-color: black;
-    width: 50vw;
-    height: 400px;
-    position: relative;
-    top: 100px;
-    bottom: 100px;
-}
-
-#int {
-    position: flex;
-    width: 100vw;
-    color: black;
-    list-style: none;
-}
-
-#aboutimg {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    left: 80px;
-}
-
-.productbox3:hover {
-    width: 255px;
-    height: 355px;
 }
 
 .centerlogo {
@@ -310,20 +153,6 @@ a {
     top: 100px;
 }
 
-.mirrone-content {
-    position: relative;
-    left: 100px;
-    top: 100px;
-    color: white;
-}
-
-.mirrone-content2 {
-    position: relative;
-    left: 1250px;
-    top: 100px;
-    color: white;
-}
-
 .clickbox1 {
     background-color: rgb(0, 0, 51);
     width: 100px;
@@ -354,105 +183,12 @@ a {
     width: 500px;
 }
 
-.crew {
-    position: relative;
-    top: 40px;
-    left: 50px;
-}
-
-.crew2 {
-    background-color: black;
-    display: inline-block;
-    margin: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: relative;
-    left: 10px;
-}
-
-#crew3 {
-    display: flex;
-    position: relative;
-    top: 50px;
-    left: 9%;
-}
-
-#clickbox2 {
-    background-color: rgb(0, 0, 51);
-    width: 100px;
-    height: 45px;
-    position: relative;
-    top: 700px;
-    left: 1000px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-}
-
-#emailbox1 {
-    width: 50px;
-    height: 20px;
-}
-
-#projectbox2-content {
-    position: relative;
-    top: 50px;
-}
-
-#videobackground {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: 864px;
-    position: absolute;
-}
-
-#productint {
-    color: white;
-    position: absolute;
-}
-
-#productint-line {
-    position: relative;
-    top: 400px;
-    left: 100px;
-}
-
-#productint-line2 {
-    position: relative;
-    top: 400px;
-    left: 100px;
-}
-
-.product-center {
-    margin-top: 50px;
-    text-align: center;
-    background-color: rgba(255, 255, 255);
-    width: 100vw;
-    height: 760px;
-}
-
-.color {
-    background-color: aquamarine;
-}
-
-.mirrint {
-    text-align: center;
-    margin: 60px;
-}
-
-.deskinf {
-    position: relative;
-    left: 400px;
-}
-
-.deskinf2 {
-    position: relative;
-    left: 100px;
-    color: white;  
-}
-
 .center {
     text-align: center;
+}
+
+.intsd {
+    position: absolute;
+    width: 100%;
+    left: 0;
 }

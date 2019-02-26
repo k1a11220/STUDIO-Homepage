@@ -1,0 +1,52 @@
+#main {
+    margin-top: -40px;
+    margin-bottom: 0;
+}
+
+#movie {
+    width: 100vw;
+}
+
+#videobackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 864px;
+    position: absolute;
+}
+
+#maykingBox {
+    left: 450px;
+}
+
+#designBox {
+    left: 820px;
+}
+
+#developBox {
+    left: 1190px;
+}
+
+
+.crew {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.crew2 {
+    background-color: black;
+    display: inline-block;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+}
+
+.crew3 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 9%;
+}
