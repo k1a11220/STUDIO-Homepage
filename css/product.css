@@ -73,10 +73,6 @@
     color: white;  
 }
 
-#mirrorBox {
-    left: 40px;
-}
-
 #mirrorint {
     position: absolute;
     bottom: 500px;
